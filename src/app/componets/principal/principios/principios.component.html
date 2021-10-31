@@ -1,0 +1,169 @@
+<app-navbar></app-navbar>
+
+<app-header-principio></app-header-principio>
+
+<ul class="cards" *ngIf="cards">
+  <li>
+    <a (click)="onRedirect('Principio de Comunicación')" style="cursor: pointer;" class="card">
+      <img src="./assets/comunicacion.jpg" class="card__image" alt="" />
+      <div class="card__overlay">
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+          <div class="card__header-text">
+            <h3 class="card__title">Principio de Comunicación</h3>
+<!--            <span class="card__status">1 hour ago</span>-->
+          </div>
+        </div>
+        <p class="card__description">Si valoras COMUNICARTE, enfocarás tu atención en comprender a la otra persona</p>
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a (click)="onRedirect('Principio de Comprender a las Personas')" style="cursor: pointer" class="card">
+      <img src="./assets/comprender.jpg" class="card__image" alt="" />
+      <div class="card__overlay">
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+          <div class="card__header-text">
+            <h3 class="card__title">Principio de Comprender a las Personas</h3>
+          </div>
+        </div>
+        <p class="card__description">
+          Pornerse en los zapatos del otro poder entender, sentir o percibir por lo que pasa.
+        </p>
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a (click)="onRedirect('Principio de Motivar a las personas')" style="cursor: pointer" class="card">
+      <img src="./assets/motivar.jpg" class="card__image" alt="" />
+      <div class="card__overlay">
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+          <div class="card__header-text">
+            <h3 class="card__title">Pincipio de Motivar a las personas</h3>
+          </div>
+        </div>
+        <p class="card__description">
+          El trabajo tenaz da prosperidad.
+        </p>
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a (click)="onRedirect('Principio de Justicia')" style="cursor: pointer" class="card">
+      <img src="./assets/justicia.jpg" class="card__image" alt="" />
+      <div class="card__overlay">
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+          <div class="card__header-text">
+            <h3 class="card__title">Principio de Justicia</h3>
+          </div>
+        </div>
+        <p class="card__description">
+          Injusticia conlleva una omisión que deniega o quita a alguien aquello que le era debido.
+        </p>
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a (click)="onRedirect('Principio de la Critica')" style="cursor: pointer" class="card">
+      <img src="./assets/criticar.jpg" class="card__image" alt="" />
+      <div class="card__overlay">
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+          <div class="card__header-text">
+            <h3 class="card__title">Principio de la Critica</h3>
+          </div>
+        </div>
+        <p class="card__description">
+          Es la facultad del alma por la que el hombre puede distiguir el bien del mal y lo verdadero de lo falso.
+        </p>
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a (click)="onRedirect('Principio del Perdón')" style="cursor: pointer" class="card">
+      <img src="./assets/perdon.jpg" class="card__image" alt="" />
+      <div class="card__overlay">
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+          <div class="card__header-text">
+            <h3 class="card__title">Principio del Perdón</h3>
+          </div>
+        </div>
+        <p class="card__description">
+          La aceptación.  Estamos abiertos de corazón para descubrir que somos capaces de liberarnos comprendiendo lo
+          ocurrido, entendiendo y perdonando al agresor.
+        </p>
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a (click)="onRedirect('Principio de Confiar en Dios')" style="cursor: pointer" class="card">
+      <img src="./assets/confiar.jpg" class="card__image" alt="" />
+      <div class="card__overlay">
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+          <div class="card__header-text">
+            <h3 class="card__title">Principio de Confiar en Dios</h3>
+          </div>
+        </div>
+        <p class="card__description">
+            Confiele a Dios su vida y todas sus preocupaciones.
+        </p>
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a (click)="onRedirect('Principio de Integridad')" style="cursor: pointer" class="card">
+      <img src="./assets/integridad.jpg" class="card__image" alt="" />
+      <div class="card__overlay">
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+          <div class="card__header-text">
+            <h3 class="card__title">Principio de Integridad</h3>
+          </div>
+        </div>
+        <p class="card__description">
+          Es el valor de hacer lo correcto a pesar de las consecuencias e inconveniencias.
+        </p>
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a (click)="onRedirect('Principio de Empoderamiento')" style="cursor: pointer" class="card">
+      <img src="./assets/empoderamiento.jpeg" class="card__image" alt="" />
+      <div class="card__overlay">
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+          <div class="card__header-text">
+            <h3 class="card__title">Principio de Empoderamiento</h3>
+          </div>
+        </div>
+        <p class="card__description">
+          Porque a cualquiera que tuviere, le seá dado, y tendrá másñ y al que no tuviere, aun lo que tiene le sera quitado.
+        </p>
+      </div>
+    </a>
+  </li>
+
+</ul>
+
+<app-comunicacion *ngIf="comunicacion"></app-comunicacion>
+<app-comprender *ngIf="comprender"></app-comprender>
+<app-motivar *ngIf="motivar"></app-motivar>
+<app-justicia *ngIf="justicia"></app-justicia>
+<app-critica *ngIf="critica"></app-critica>
+<app-perdon *ngIf="perdon"></app-perdon>
+<app-confiar *ngIf="confiar"></app-confiar>
+<app-integridad *ngIf="integridad"></app-integridad>
+<app-empoderamiento *ngIf="empoderamiento"></app-empoderamiento>
